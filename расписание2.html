@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>уведомления</title>
+    <link rel="stylesheet" href="Расписание.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <style>
+        .uvedo{
+            max-width: 500px;
+            margin: auto;
+            padding: 40px 0;
+        }
+        .uvedo h1{
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+        .card-uved {
+            background: ghostwhite;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .card-uved h3 {
+            color: #c0392b;
+            margin-bottom: 8px;
+        }
+        .card-uved p{
+            color: #7b1a1a;
+            font-size: 14px;
+        }
+       
+        .data-uved {
+            font-size: 12px;
+            color: gray;
+            margin-top: 5px;
+        }
+        .badge {
+            display: inline-block;;  
+            background: #c0392b;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-bottom: 8px
+        }
+        .badge-info {
+            background: #1a73c8; 
+        }
+        .badge-info {
+            background: #1a73c8;  
+        }
+    </style>
+</head>
+<body>
+
+<img src="images/Pngsha.png" alt="Logo" class="logo">  
+
+<div class="uvedo">
+
+    <h1>Уведомления</h1>
+    <div class="page-nav">
+    <a href="Расписание.html">Расписание</a>
+    <a href="расписание2.html" class="active">Уведомления</a>
+    <a href="расписание3.html">О нас</a>
+</div>
+
+   
+    <div class="navigation">
+        <button class="nav-btn active">Все</button>
+        <button class="nav-btn">Замены</button>
+        <button class="nav-btn">Отмены</button>
+    </div>
+
+    <div class="menu__card">
+
+        <div class="card-uved">
+            <span class="badge">Замена</span>
+            <h3>Физкультура → Иностранный язык</h3>
+            <p>В понедельник 28 апреля физкультура заменяется на иностранный язык. Кабинет 204</p>
+            <p class="data-uved">28.04.2026</p>
+        </div>
+
+        <div class="card-uved">
+            <span class="badge">Замена</span>
+            <h3>Всемирная история перенесена</h3>
+            <p>Занятие перенесено на среду в 13:20. Причина: болезнь преподавателя</p>
+            <p class="data-uved">27.04.2026</p>
+        </div>
+
+        <div class="card-uved">
+            <span class="badge badge-info">Инфо</span>
+            <h3>Расписание на следующую неделю</h3>
+            <p>Расписание на следующую неделю обновлено. Проверьте изменения</p>
+            <!-- надо будет добавить кнопку -->
+            <p class="data-uved">26.04.2026</p>
+        </div>
+
+        <div class="card-uved">
+            <span class="badge">Замена</span>
+            <h3>Замена в четверг</h3>
+            <p>Установка и настройка ОС - кабинет изменён с 301 на 215</p>
+            <p class="data-uved">25.04.2026</p>
+        </div>
+
+        <div class="card-uved">
+            <span class="badge badge-info">Инфо</span>
+            <h3>Кураторский час</h3>
+            <p>В пятницу кураторский час пройдет в актовом зале а не в классе</p>  <!-- забыл запятую -->
+            <p class="data-uved">24.04.2026</p>
+        </div>
+
+    </div>
+
+</div>
+
+
+ <footer class="footer">
+  <div class="footer__container">
+    <div class="contacts">
+      <h3>Контакты</h3>
+      <p>Email: lolrobottyn@gmail.com</p>
+      <p>Телефон: +7 771 471 7947</p>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2026 Расписание. Все права защищены.</p>
+    </div>
+  </div>
+ </footer>
+
+</body>
+</html>
